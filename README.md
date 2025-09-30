@@ -6,11 +6,11 @@ Initially visit this site to generate a Gemini API Key: https://aistudio.google.
 (Save the API Key in a secure location)
 
 Then set your API Key using the following command line:
-Mac: export GEMINI_API_KEY="YOUR_API_KEY"
+Mac: export GEMINI_API_KEY="YOUR_API_KEY" <br>
 Windows: set GEMINI_API_KEY="YOUR_API_KEY"
 
 ## COMPILING AND RUNNING YOUR MAVEN PROJECT
-Use the following command line on both Mac and Windows:
+Use the following command line on both Mac and Windows: <br>
 mvn clean compile exec:java -Dexec.mainClass="com.example.Main"
 
 1. mvn clean -> Deletes target directory for a fresh start
