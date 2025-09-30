@@ -16,4 +16,4 @@ mvn clean compile exec:java -Dexec.mainClass="com.example.Main"
 1. **mvn clean** -> Deletes target directory for a fresh start
 2. **compile** -> Compiles projects source code
 3. **exec:java** -> Exec Maven Plugin that runs a Java class directly from the compiled project
-4.** -Dexec.mainClass="com.example.Main"** -> Determines which class to execute (Main) 
+4. **-Dexec.mainClass="com.example.Main"** -> Determines which class to execute (Main) 
