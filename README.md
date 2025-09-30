@@ -5,7 +5,7 @@ Using the relationship between APIs and LLMs, I have developed a software that u
 Initially visit this site to generate a Gemini API Key: https://aistudio.google.com/app/apikey <br>
 (Save the API Key in a secure location)
 
-Then set your API Key using the following command line:
+Then set your API Key using the following command line:<br>
 Mac: export GEMINI_API_KEY="YOUR_API_KEY" <br>
 Windows: set GEMINI_API_KEY="YOUR_API_KEY"
 
