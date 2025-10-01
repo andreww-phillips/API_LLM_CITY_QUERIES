@@ -78,7 +78,7 @@ public class Main
             if (!response.isSuccessful()){
                 return result;
             }
-            String responseBody = response.body().string();
+            
 
             System.out.println("HTTP Status Code: " + response.code());
             System.out.println("LLM RAW JSON Response: " + responseBody);
@@ -109,7 +109,7 @@ public class Main
         //Checks if API_KEY has been input
         if(API_KEY == null || API_KEY.isBlank()){
             System.err.println("ERROR: API KEY not set");
-            System.err.println("Please set the GEMINI_API_KEY by using: export GEMINI_API_KEY=your_API_key");
+            System.err.println("Please set the GEMINI_API_KEY by using: export GEMINI_API_KEY=\"YOUR_GEMINI_API_KEY\"");
             return;
         }
 
